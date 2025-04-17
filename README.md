@@ -10,9 +10,8 @@
 
 > 🧠 A lightweight, real-time market intelligence tool that pulls sentiment and discussion insights from Reddit, Hacker News, and Quora — tailored specifically for developers, indie hackers, and early-stage product teams.
 
-<p align="center">
-  <img src="https://i.imgur.com/placeholder-image.png" alt="Project Crux Screenshot" width="600">
-</p>
+
+Demo Video : https://drive.google.com/drive/u/0/folders/1xHG69G_5VMxfrucySL6rgMIcGbf2ZRL_
 
 ## ✨ What It Does
 

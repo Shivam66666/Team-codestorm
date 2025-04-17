@@ -1,0 +1,241 @@
+title,score,sentiment
+CVE program faces swift end after DHS fails to renew contract [fixed],1889,Negative
+"Cursor IDE support hallucinates lockout policy, causes user cancellations",1427,Positive
+Harvard's response to federal government letter demanding changes,1353,Negative
+Whistleblower details how DOGE may have taken sensitive NLRB data,1047,Neutral
+Googler... ex-Googler,1040,Neutral
+Google is winning on every AI front,975,Positive
+Show HN: Unsure Calculator – back-of-a-napkin probabilistic calculator,882,Negative
+A hackable AI assistant using a single SQLite table and a handful of cron jobs,773,Neutral
+How to win an argument with a toddler,690,Positive
+4chan Sharty Hack And Janitor Email Leak,674,Negative
+GPT-4.1 in the API,674,Neutral
+America underestimates the difficulty of bringing manufacturing back,656,Negative
+Open guide to equity compensation,642,Neutral
+The path to open-sourcing the DeepSeek inference engine,545,Neutral
+OpenAI o3 and o4-mini,505,Neutral
+Everything wrong with MCP,505,Negative
+TLS certificate lifetimes will officially reduce to 47 days,474,Neutral
+Man who built ISP instead of paying Comcast expands to hundreds of homes (2022),468,Positive
+How the U.S. became a science superpower,457,Neutral
+OpenAI Codex CLI: Lightweight coding agent that runs in your terminal,440,Neutral
+Meta antitrust trial kicks off in federal court,430,Neutral
+Darwin's children drew all over the “On the Origin of Species” manuscript (2014),425,Neutral
+Zoom outage caused by accidental 'shutting down' of the zoom.us domain,398,Negative
+CVE Foundation,383,Neutral
+JSLinux,382,Neutral
+It's easier than ever to de-censor videos,380,Positive
+Temu pulls its U.S. Google Shopping ads,375,Neutral
+How many supernova explode every year?,365,Neutral
+12-factor Agents: Patterns of reliable LLM applications,355,Neutral
+Generate videos in Gemini and Whisk with Veo 2,345,Neutral
+Jellyfin as a Spotify alternative,334,Neutral
+Kermit: A typeface for kids,327,Neutral
+DolphinGemma: How Google AI is helping decode dolphin communication,322,Positive
+Attention K-Mart Shoppers,314,Neutral
+OpenAI is building a social network?,312,Neutral
+Hacking a Smart Home Device (2024),311,Positive
+Intel sells 51% stake in Altera to private equity firm on a $8.75B valuation,310,Neutral
+Reproducing Hacker News writing style fingerprinting,300,Neutral
+What Is Entropy?,285,Neutral
+Canadian math prodigy allegedly stole $65M in crypto,274,Neutral
+Google to embrace MCP,267,Positive
+SQLite File Format Viewer,267,Neutral
+Philip K. Dick: Stanisław Lem Is a Communist Committee (2015),267,Negative
+JSX over the Wire,257,Neutral
+Clolog,254,Neutral
+Behind the 6-digit code: Building HOTP and TOTP from scratch,247,Neutral
+Teuken-7B-Base and Teuken-7B-Instruct: Towards European LLMs (2024),244,Neutral
+How to bike across the country,238,Neutral
+"New Vulnerability in GitHub Copilot, Cursor: Hackers Can Weaponize Code Agents",231,Negative
+The Wisconsin cartographer who mapped Tolkien's fantasy world,230,Neutral
+Chroma: Ubisoft's internal tool used to simulate color-blindness,227,Neutral
+Hacking the Postgres wire protocol,224,Neutral
+Ask HN: Why is there no P2P streaming protocol like BitTorrent?,222,Positive
+Zig's new LinkedList API (it's time to learn fieldParentPtr),222,Neutral
+How dairy robots are changing work for cows and farmers,218,Neutral
+Markov Chain Monte Carlo Without All the Bullshit (2015),217,Positive
+Tariff: A Python package that imposes tariffs on Python imports,217,Negative
+Launch HN: mrge.io (YC X25) – Cursor for code review,216,Neutral
+"A flowing WebGL gradient, deconstructed",216,Neutral
+Hacktical C: practical hacker's guide to the C programming language,215,Neutral
+The Bitter Prediction,214,Negative
+Mario Vargas Llosa has died,211,Negative
+Astronomers have found signs of alien life on a planet beyond our Solar System,210,Neutral
+Tomb Engine,206,Neutral
+"Omnom: Self-hosted bookmarking with searchable, wysiwyg snapshots",206,Neutral
+How Nintendo bled Atari games to death,201,Negative
+Damn Vulnerable MCP Server,198,Negative
+Podman Quadlets with Podman Desktop,180,Neutral
+Simple Web Server,172,Neutral
+Transformer Lab,168,Neutral
+Writing my own dithering algorithm in Racket,168,Negative
+What the hell is a target triple?,162,Negative
+An Introduction to Stochastic Calculus (2022),159,Neutral
+Show HN: Plandex v2 – open source AI coding agent for large projects and tasks,156,Neutral
+Dirty tricks 6502 programmers use (2019),155,Negative
+Show HN: Resurrecting Infocom's Unix Z-Machine with Cosmopolitan,154,Neutral
+A Postmortem of a Startup,150,Neutral
+Meilisearch – search engine API bringing AI-powered hybrid search,150,Neutral
+Astronomers Detect a Possible Signature of Life on a Distant Planet,148,Neutral
+Fake images that fooled the world,146,Negative
+US judge finds administration wilfully defied court order in deportation flights,143,Neutral
+The case of the UI thread that hung in a kernel call,142,Neutral
+eInk Mode: Making web pages easier to read,137,Positive
+Wasting Inferences with Aider,137,Negative
+Breaking the Llama Community License,133,Neutral
+A Ford executive who kept score of colleagues' verbal flubs,133,Neutral
+Show HN: MCP-Shield – Detect security issues in MCP servers,131,Positive
+Kaggle and the Wikimedia Foundation are partnering on open data,129,Neutral
+Microsoft researchers developed a hyper-efficient AI model that can run on CPUs,127,Neutral
+Fibonacci Hashing: The Optimization That the World Forgot,127,Positive
+Benn Jordan's AI poison pill and the weird world of adversarial noise,127,Negative
+How a Forgotten Battle Created a More Peaceful World,125,Positive
+Demolishing the Fry's Electronics in Burbank,125,Neutral
+A high-throughput parser for the Zig programming language,122,Neutral
+"CT scans could cause 5% of cancers, study finds; experts note uncertainty",120,Negative
+45-year mystery behind eerie photo from The Shining is believed to be solved,119,Negative
+WEIRD – a way to be on the web,118,Negative
+"Concurrency in Haskell: Fast, Simple, Correct",117,Neutral
+Show HN: We Put Chromium on a Unikernel (OSS Apache 2.0),116,Neutral
+The last RadioShack in Maryland is closing,116,Neutral
+Exwm: Emacs X Window Manager,116,Neutral
+Herb: Powerful and seamless HTML-aware ERB parsing and tooling,110,Positive
+Monte Carlo Crash Course: Sampling,105,Negative
+Notion Mail is out,100,Neutral
+"Science, the Endless Frontier (1945) [pdf]",99,Neutral
+Designing a low-cost high-performance 10 MHz – 15 GHz vector network analyzer,99,Neutral
+"MeshCore, a new lightweight, hybrid routing mesh protocol for packet radios",97,Neutral
+The Whimsical Investor,95,Positive
+Cohere Launches Embed 4,95,Neutral
+7k-year-old skeletons from the green Sahara reveal a mysterious human lineage,94,Neutral
+A protein folding mystery solved: Study explains core packing fractions,91,Positive
+Dead trees keep surprisingly large amounts of carbon out of atmosphere,91,Negative
+Passing planes and other whoosh sounds,90,Neutral
+Tech workers are leaving notes in robot taxis seeking workers and lovers,89,Positive
+Query Engines: Push vs. Pull (2021),88,Neutral
+Query Engines: Push vs. Pull (2021),88,Neutral
+Mark Zuckerberg's failed negotiations with the FTC to end Meta's antitrust case,88,Negative
+An Introduction to Modern CMake,85,Neutral
+Elon Musk shut down internal Tesla analysis showing Robotaxi would lose money,84,Negative
+Liquid: Language models are scalable and unified multi-modal generators,81,Positive
+"The UCSD p-System, Apple Pascal, and a dream of cross-platform compatibility",80,Positive
+How Janet's PEG module works,80,Neutral
+SSD1306 display drivers and font rendering,76,Neutral
+Evelyn Waugh’s Decadent Redemption,75,Neutral
+W65C832 in an FPGA,74,Neutral
+Show HN: Torque – A lightweight meta-assembler for any processor,73,Neutral
+Show HN: Resonate – real-time high temporal resolution spectral analysis,73,Neutral
+How I use audio journaling and AI to improve my trading decisions,73,Positive
+Stop Conflating Genius with Asshole,71,Negative
+Cure ID App Lets Clinicians Report Novel Uses of Existing Drugs,71,Positive
+Former cybersecurity chief Chris Krebs leaves SentinelOne after executive order,70,Neutral
+Fun ways of deciding authorship order (2016),69,Positive
+Important open source projects should not use GitHub (2020),68,Positive
+Typographic Pictures Composed Entirely of Brass Rule (2024),64,Neutral
+"GPT o3 frequently fabricates actions, then elaborately justifies these actions",63,Neutral
+Unix files have (at least) two sizes,62,Neutral
+Censors Ignore Unencrypted HTTP/2 Traffic (2024),62,Negative
+"METS, the Middle English Texts Series",61,Neutral
+Future Chips Will Be Hotter Than Ever,59,Neutral
+Significant performance improvements with Edge 134,58,Positive
+Laser Launch into Orbit,58,Neutral
+Manga Guide To Databases (2004) [pdf],56,Neutral
+How to Optimize Rust for Slowness: Inspired by New Turing Machine Results,54,Positive
+Sony Unveils the Smallest and Lightest Lidar Depth Sensor,53,Neutral
+OpenAI in Talks to Buy Windsurf for About $3B,53,Neutral
+Understanding Aggregate Trends for Apple Intelligence Using Differential Privacy,52,Positive
+RakuAST Grant Report,48,Positive
+Making Software,45,Neutral
+How refrigeration changed our food,45,Neutral
+"""Vivarium"": The keeper of a lab's animals stumbles onto a secret [fiction]",45,Neutral
+Hunter-gatherer sea voyages extended to remotest Mediterranean islands,44,Neutral
+Adipose tissue retains an epigenetic memory of obesity after weight loss,44,Negative
+Nix Trigonometric Math Library from Ground Zero,43,Neutral
+Archeology of React (2016),43,Neutral
+RNG and Cosine in Nix,42,Neutral
+Launch HN: Jasmine (YC S22) – Automating REC compliance and payouts for solar,39,Neutral
+An interactive introduction to rotors from geometric algebra (2018),39,Neutral
+Claude Research,39,Neutral
+Four Kinds of Optimisation (2023),38,Positive
+Post-Silicon Validation of Static Lockstep Mode,37,Neutral
+BitNet b1.58 2B4T Technical Report,36,Neutral
+Aerial Minesweeping (2021),35,Neutral
+Microsoft Copilot can now 'see' what's on your screen in Edge,34,Neutral
+M1: Towards Scalable Test-Time Compute with Mamba Reasoning Models,34,Neutral
+Colossal squid filmed in ocean for the first time,34,Neutral
+The Halting Problem is a terrible example of NP-Harder,33,Negative
+"Elephant in Cairo (Byte Magazine, 1989)",33,Neutral
+LG TVs' integrated ads get more personal with tech that analyzes viewer emotions,33,Neutral
+JEP 506: Scoped Values final for Java 25,33,Positive
+Audiobooks vs. Printed Books: a debate as a reader and an author,31,Neutral
+Amazfit activity tracker and watch face asset generation,30,Positive
+What does it mean for a technology to follow Wright's Law?,30,Neutral
+How to Build an Agent,30,Neutral
+Virtual human – a living cadaver – pushes boundaries of anatomical science(2018),29,Neutral
+Rust-IoT-Platform,29,Neutral
+Library patterns: Why frameworks are evil,28,Negative
+Why Cloudflare Is the Perfect Infrastructure for Building AI Applications,28,Positive
+"In Two Moves, AlphaGo and Lee Sedol Redefined the Future (2016)",27,Neutral
+The API Churn/Security Trade-Off (2016),26,Neutral
+Island-wide blackout leaves Puerto Rico without power,26,Neutral
+Differentiable Programming from Scratch,25,Neutral
+Terak Museum,23,Neutral
+Calcium may have unlocked the origins of life's molecular asymmetry,23,Neutral
+"Teaching keeps you young, or so says Professor Brian Kernighan",23,Neutral
+Advanced Shell Scripting with Bash (2006) [pdf],22,Positive
+"Krebs Targeted With Government Probe, Vows to Fight",22,Negative
+"Show HN: Sidekick, an open source Claude Code alternative",22,Neutral
+Reasoning Models Can Be Effective Without Thinking,21,Positive
+Scientists pioneer chemical process to repurpose rubber waste,20,Negative
+'Why would he take such a risk?' My censor and me,20,Negative
+Bring Back RSS Feeds to Browsers,19,Neutral
+The Promise of Rust,18,Positive
+ICE-snitching app is promoting a meme coin,17,Positive
+The Business of the AI Labs,17,Neutral
+Ghidra-delinker-extension is snowballing out of control,17,Neutral
+ICE-snitching app is promoting a meme coin,16,Positive
+Show HN: I built a deep learning engine from scratch in Python,15,Neutral
+OVH Currently Experiencing an Outage,15,Neutral
+Administration seeks to narrow Endangered Species Act by redefining 'harm',15,Neutral
+Scientists find strongest evidence yet of life on an alien planet,15,Positive
+Scientists find strongest evidence yet of life on an alien planet,15,Positive
+Clowning Around: On the Principles of Clowning,14,Neutral
+How to Flatpack Programs [video],14,Neutral
+Discord Begins Testing Facial Scans for Age Verification,13,Negative
+"Why Japan's ""Weakest Samurai Warlord"" Is Still Admired to This Day",12,Neutral
+"I got rid of SMS loan spammers. (or ""how I accidentally wrote sci-fi copypasta""",12,Negative
+The value of a dedicated data science approach in HR,12,Positive
+Show HN: Elfconv – Linux Apps to High-Performance WASM Binary Translator,11,Neutral
+Judge berates AI entrepreneur for using a generated 'lawyer' in court,11,Neutral
+"What ""Silicon Valley"" TV Show Knew About Tech-Bro Paternalism",11,Neutral
+Strongest evidence of life yet found on planet beyond solar system,10,Positive
+Scientists hail 'strongest evidence' so far for life beyond our solar system,10,Positive
+Somehash: A Blurhash-Inspired Exploration,10,Positive
+The Atari 1200XL Fiasco – By Paul Lefebvre,9,Negative
+How the Merchants of Ifriqiya Coded Commerce Before Silicon,9,Neutral
+New study reveals wealth inequality was never inevitable,9,Positive
+16th-Century Manuscript Reveals the First Designs for Modern Rockets,9,Neutral
+Trump's trade war with China just cost Nvidia $5.5B,8,Negative
+Raw Loops for Performance?,8,Neutral
+AI as Normal Technology,7,Neutral
+LLMs Do Not Predict the Next Word,7,Neutral
+Peru's ancient irrigation systems turned deserts into farms because of culture,7,Neutral
+Using PDDL to find privilege escalation paths,6,Positive
+Calypsi: A series of C compiler and assembly language cross compiler tool chains,6,Neutral
+Calypsi: A series of C compiler and assembly language cross compiler tool chains,6,Neutral
+Translate Fortran to C++ with AI and RAG,6,Neutral
+Webb telescope detects a possible signature of life on a distant world,6,Neutral
+PolyThink: A Multi-Agent AI System to Eliminate Hallucinations,5,Neutral
+Modest Natural-Language Processing,5,Neutral
+Fedora Linux 42 Released,5,Neutral
+Pathways to Electrochemical Ironmaking via the Direct Reduction of Fe2O3,5,Neutral
+India's Waaree to double its solar module output at its Texas factory,5,Neutral
+Building an AI That Watches Rugby,4,Neutral
+"TSMC Dismisses Intel Tie-Up Talk, Says No Intent to Share Tech",4,Neutral
+Ed Is the Standard Text Editor,4,Neutral
+Energy and AI,4,Positive
+Pud's Small Batch Headphones,4,Neutral
+The complex origin story of domestic cats: Research points to Tunisia,3,Neutral
+AI-Designed Antivenoms: New Proteins to Block Deadly Snake Toxins,3,Negative
+Formance (YC S21) Is Hiring Engineers to Build OSS Financial Infrastructure,0,Neutral

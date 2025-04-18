@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Research Bot - Bento UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='simple_frontend.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🔍 Market Research Bot</h1>
+            <p>A lightweight, real-time market intelligence tool for product builders</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Search Section -->
+        <div class="bento-grid">
+            <div class="bento-card search-card">
+                <h2>Search for Market Insights</h2>
+
+                <div class="form-group">
+                    <label for="searchTerm">What product or topic would you like to research?</label>
+                    <input type="text" id="searchTerm" name="varr" placeholder="Enter a product, technology, or topic..." method="post">
+                </div>
+                <div class="form-group">
+                    <label>Select platforms to analyze:</label>
+                    <div class="checkbox-group">
+                        <label class="platform-checkbox">
+                            <input type="checkbox" id="hackernews">
+                            <span class="checkmark"><i class="fab fa-hacker-news"></i> Hacker News</span>
+                        </label>
+                        <label class="platform-checkbox">
+                            <input type="checkbox" id="quora">
+                            <span class="checkmark"><i class="fab fa-quora"></i> Quora</span>
+                        </label>
+                    </div>
+                </div>
+                <button id="searchButton" type="submit"><i class="fas fa-search"></i> Analyze Sentiment</button>
+            </div>
+        </div>
+
+        <!-- Loading and Error States -->
+        <div id="loading" class="loading">
+            <div class="loading-spinner"></div>
+            <p>Analyzing discussions across platforms... This may take a moment.</p>
+        </div>
+        <div id="error" class="error"></div>
+
+        <!-- Results Section -->
+        <div id="results" class="results">
+            <h2 id="resultsTitle">Market Research Results</h2>
+            
+            <!-- Overview Cards -->
+            <div class="bento-grid">
+                <div class="bento-card span-4">
+                    <div class="card-title">
+                        <i class="fas fa-comment-dots fa-lg"></i>
+                        <h3>Overall Sentiment</h3>
+                    </div>
+                    <div id="overallSentimentBar" class="sentiment-bar">
+                        <div class="sentiment-positive" style="width: 65%"></div>
+
+                        <div class="sentiment-neutral" style="width: 25%"></div>
+                        <div class="sentiment-negative" style="width: 10%"></div>
+                    </div>
+                    <div class="sentiment-legend">
+                        <div class="sentiment-legend-item">
+                            <div class="legend-color" style="background-color: var(--positive-color)"></div>
+                            <span id="positiveSentiment">Positive: {{ pos }}</span>
+                        </div>
+                        <div class="sentiment-legend-item">
+                            <div class="legend-color" style="background-color: var(--neutral-color)"></div>
+                            <span id="neutralSentiment">Neutral: {{ neg }}</span>
+                        </div>
+                        <div class="sentiment-legend-item">
+                            <div class="legend-color" style="background-color: var(--negative-color)"></div>
+                            <span id="negativeSentiment">Negative: {{ net }}</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bento-card span-4">
+                    <div class="card-title">
+                        <i class="fas fa-chart-pie fa-lg"></i>
+                        <h3>Platform Breakdown</h3>
+                    </div>
+                    <div id="platformStats">
+                        <div class="platform-card">
+                            <div class="platform-header">
+                                <div class="platform-name">
+                                    <div class="platform-icon"><i class="fab fa-hacker-news"></i></div>
+                                    <span>Hacker News</span>
+                                </div>
+                                <span>{{res1}} results</span>
+                            </div>
+                            <div class="sentiment-bar">
+                                <div class="sentiment-positive" style="width: 60%"></div>
+                                <div class="sentiment-neutral" style="width: 30%"></div>
+                                <div class="sentiment-negative" style="width: 10%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="platform-card">
+                            <div class="platform-header">
+                                <div class="platform-name">
+                                    <div class="platform-icon"><i class="fab fa-quora"></i></div>
+                                    <span>Quora</span>
+                                </div>
+                                <span>{{res2}} results</span>
+                            </div>
+                            <div class="sentiment-bar">
+                                <div class="sentiment-positive" style="width: 65%"></div>
+                                <div class="sentiment-neutral" style="width: 25%"></div>
+                                <div class="sentiment-negative" style="width: 10%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bento-card span-4">
+                    <div class="card-title">
+                        <i class="fas fa-hashtag fa-lg"></i>
+                        <h3>Key Metrics</h3>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div>
+                            <div class="stat-number">33</div>
+                            <div class="stat-label">Total Discussions</div>
+                        </div>
+                        <div>
+                            <div class="stat-number">65%</div>
+                            <div class="stat-label">Positive Sentiment</div>
+                        </div>
+                        <div>
+                            <div class="stat-number">10</div>
+                            <div class="stat-label">Top Keywords</div>
+                        </div>
+                        <div>
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Platforms Analyzed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Keywords and Results -->
+            <div class="bento-grid">
+                <div class="bento-card span-6">
+                    <div class="card-title">
+                        <i class="fas fa-tags fa-lg"></i>
+                        <h3>Trending Keywords</h3>
+                    </div>
+                    <div id="keywordCloud" class="keyword-cloud">
+                        <span class="keyword-tag" style="font-size: 21px">programming (15)</span>
+                        <span class="keyword-tag" style="font-size: 20px">learning (12)</span>
+                        <span class="keyword-tag" style="font-size: 19px">development (10)</span>
+                        <span class="keyword-tag" style="font-size: 18px">data science (8)</span>
+                        <span class="keyword-tag" style="font-size: 17px">AI (7)</span>
+                        <span class="keyword-tag" style="font-size: 17px">web (6)</span>
+                        <span class="keyword-tag" style="font-size: 16px">framework (5)</span>
+                        <span class="keyword-tag" style="font-size: 16px">library (4)</span>
+                        <span class="keyword-tag" style="font-size: 15px">code (3)</span>
+                        <span class="keyword-tag" style="font-size: 15px">software (2)</span>
+                    </div>
+                </div>
+                
+                <div class="bento-card span-6">
+                    <div class="card-title">
+                        <i class="fas fa-lightbulb fa-lg"></i>
+                        <h3>AI-Generated Insights</h3>
+                    </div>
+                    <p>{{aires}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('searchButton').addEventListener('click', function() {
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('results').style.display = 'none';
+            
+            // Get form values
+            const searchTerm = document.getElementById('searchTerm').value;
+            const platforms = [];
+            if (document.getElementById('hackernews').checked) platforms.push('hackernews');
+            if (document.getElementById('quora').checked) platforms.push('quora');
+            
+            // Validate
+            if (platforms.length === 0) {
+                document.getElementById('error').textContent = 'Please select at least one platform to analyze';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('loading').style.display = 'none';
+                return;
+            }
+            
+            // Update results title
+            document.getElementById('resultsTitle').textContent = `Market Research Results for "${searchTerm}"`;
+            
+            // In a real application, this would make an API request
+            // For this demo, we'll simulate a response
+            setTimeout(() => {
+                // Hide loading
+                document.getElementById('loading').style.display = 'none';
+                
+                // Show results
+                document.getElementById('results').style.display = 'block';
+                
+                // Scroll to results
+                document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+            }, 2000);
+        });
+    </script>
+</body>
+</body>
+</body>
+</html>
